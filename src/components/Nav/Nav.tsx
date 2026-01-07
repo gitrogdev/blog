@@ -6,7 +6,7 @@ export default function Nav() {
 		<AppBar position="static">
 			<Toolbar>
 				<Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-					blogrog
+					gitblog
 				</Typography>
 				<Links/>
 			</Toolbar>

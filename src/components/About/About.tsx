@@ -10,7 +10,7 @@ export default function About() {
 
 	return (<Box className="about-box">
 		<Typography variant="h3" gutterBottom>
-			blogrog
+			gitblog
 		</Typography>
 		<Typography>
 			Hi, I'm gitrog, a {age}-year-old web developer based in Zagreb,
