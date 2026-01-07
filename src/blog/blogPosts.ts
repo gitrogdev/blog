@@ -1,4 +1,7 @@
-const postFiles = import.meta.glob('./posts/*.md', { eager: true, as: 'raw' });
+const postFiles: Record<string, string> = import.meta.glob('./posts/*.md', {
+	eager: true,
+	query: '?raw'
+});
 
 /**
  * Represents a blog post for the site.
