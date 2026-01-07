@@ -1,0 +1,12 @@
+.about-box {
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+.about-box p {
+	margin: auto;
+	margin-bottom: 1em;
+	width: 80%;
+}
