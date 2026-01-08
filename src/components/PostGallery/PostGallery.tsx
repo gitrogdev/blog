@@ -38,7 +38,7 @@ export default function PostGallery(props: PostGalleryProps) {
 	return (
 		<ImageList>
 			<ImageListItem key="Subheader" cols={2}>
-				<ListSubheader component="div">Past Trips</ListSubheader>
+				<ListSubheader component="div">Blog Posts</ListSubheader>
 			</ImageListItem>
 
 			{props.blogPosts.map((post) => (<Link to={`blog/${post.slug}`}>
