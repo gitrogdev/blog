@@ -52,4 +52,4 @@ Leaving the show was less amazing. Unipol Arena is outside of the city, and publ
 
 Thank you Thom, Jonny, Colin, Ed, Phil, Chris, and all the other people who made this show possible. I can't wait to see what's next for Thom Yorke & the Radio Heads.
 
-![How to Disappear Completely Modified Bear](../../../public/images/htdcbear.gif)![How to Disappear Completely Modified Bear](../../../public/images/htdcbear.gif)![How to Disappear Completely Modified Bear](../../../public/images/htdcbear.gif)![How to Disappear Completely Modified Bear](../../../public/images/htdcbear.gif)![How to Disappear Completely Modified Bear](../../../public/images/htdcbear.gif)
+![How to Disappear Completely Modified Bear](/images/htdcbear.gif)![How to Disappear Completely Modified Bear](/images/htdcbear.gif)![How to Disappear Completely Modified Bear](/images/htdcbear.gif)![How to Disappear Completely Modified Bear](/images/htdcbear.gif)![How to Disappear Completely Modified Bear](/images/htdcbear.gif)
