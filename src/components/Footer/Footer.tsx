@@ -23,9 +23,15 @@ export default function Footer() {
 				underline="hover"
 			>
 				TypeScript
-			</Link>, and{" "}
+			</Link>,{" "}
 			<Link href="https://react.dev/" target="_blank" underline="hover">
 				React.js
+			</Link>, and {" "}
+			<Link href="https://mui.com/material-ui/"
+				target="_blank"
+				underline="hover"
+			>
+				Material UI
 			</Link>. Hosted on{" "}
 			<Link href="https://pages.github.com/"
 				target="_blank"
