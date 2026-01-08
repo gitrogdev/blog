@@ -28,7 +28,7 @@ export default function BlogPost(props: BlogPostProps) {
 
 	useEffect(() => {
 		document.title = `${props.title} - ${post.title}`;
-	}, [props.title]);
+	}, [post.title]);
 
 	return (<article>
 		<Typography variant="h3">{post.title}</Typography>
