@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import './About.css';
 import yearsSince from "../../util/yearsSince";
-import Links from "../Links/Links";
+import Links from "../../components/Links/Links";
 
 export default function About() {
 	const age = yearsSince('2002-08-08');

@@ -9,6 +9,7 @@ import { useState } from "react";
 
 import type { BlogPost } from "../../blog/blogPosts";
 import './PostGallery.css';
+import { Link } from "react-router-dom";
 
 interface PostGalleryProps {
 	blogPosts: BlogPost[]
@@ -40,7 +41,7 @@ export default function PostGallery(props: PostGalleryProps) {
 				<ListSubheader component="div">Past Trips</ListSubheader>
 			</ImageListItem>
 
-			{props.blogPosts.map((post) => (
+			{props.blogPosts.map((post) => (<Link to={`blog/${post.slug}`}>
 				<ImageListItem
 					key={post.thumbnail}
 					className="post-preview"
@@ -74,7 +75,7 @@ export default function PostGallery(props: PostGalleryProps) {
 						subtitle={post.daterange}
 					/>
 				</ImageListItem>
-			))}
+			</Link>))}
 		</ImageList>
 	);
 }

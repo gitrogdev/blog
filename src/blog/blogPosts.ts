@@ -20,21 +20,25 @@ export interface BlogPost {
 	/** The human-readable date or date range of the post. */
 	daterange: string,
 
+	/** The URL slug for the post. */
+	slug: string,
+
 	/** The content of the blog post, as markdown. */
 	content?: string
 }
 
-function parsePost(contents: string): BlogPost {
+function parsePost(contents: string, filename: string): BlogPost {
 	const lines = contents.split('\n');
 	return {
 		date: lines[0].trim(),
 		thumbnail: lines[1].trim(),
 		title: lines[2].trim(),
 		daterange: lines[3].trim(),
+		slug: filename.split('/').pop()!.replace('.md', ''),
 		content: lines.slice(4).join('\n').trim()
 	}
 }
 
-export const blogPosts: BlogPost[] = Object.values(postFiles).map(
-	(contents) => parsePost(contents)
+export const blogPosts: BlogPost[] = Object.entries(postFiles).map(
+	([filename, contents]) => parsePost(contents, filename)
 ).sort((a, b) => b.date.localeCompare(a.date));
