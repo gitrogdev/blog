@@ -11,18 +11,33 @@ export default function Footer() {
 
 	return (<footer>
 		<Typography variant="body2" color="grey.500">
-			&copy; gitrog {copyrightRange}. All rights reserved.
-			Powered by <Link href="https://vitejs.dev/" underline="hover">
+			&copy; gitrog {copyrightRange}. All rights reserved. Powered by
+			{" "}<Link href="https://vitejs.dev/"
+				target="_blank"
+				underline="hover"
+			>
 				Vite
 			</Link>,{" "}
-			<Link href="https://www.typescriptlang.org/" underline="hover">
+			<Link href="https://www.typescriptlang.org/"
+				target="_blank"
+				underline="hover"
+			>
 				TypeScript
 			</Link>, and{" "}
-			<Link href="https://react.dev/" underline="hover">
+			<Link href="https://react.dev/" target="_blank" underline="hover">
 				React.js
 			</Link>. Hosted on{" "}
-			<Link href="https://pages.github.com/" underline="hover">
+			<Link href="https://pages.github.com/"
+				target="_blank"
+				underline="hover"
+			>
 				GitHub Pages
+			</Link>. Source code available on{" "}
+			<Link href="https://github.com/gitrogdev/blog/tree/main"
+				target="_blank"
+				underline="hover"
+			>
+				GitHub
 			</Link>.
 		</Typography>
 	</footer>);
