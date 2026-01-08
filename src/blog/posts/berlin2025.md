@@ -1,7 +1,7 @@
 2025-12-09
 https://photos.smugmug.com/2025/Berlin---December-2025/i-7H5dKwR/0/NcGBDcmC8kncQkkq5rWKKfjx597N8qv5FN84dTnH4/X2/IMG_5166-X2.jpg
 In a Fast German Car - Radiohead in Berlin
-December 6th, 2025 - December 9th, 2025
+December 7th, 2025 - December 9th, 2025
 https://gitrogdev.smugmug.com/2025/Berlin---December-2025/n-PhLvrK
 
 The moment I'd been waiting my whole semester for: Radiohead in Berlin. I bought this ticket in the presale back in September, considered selling it when I bought the Bologna tickets, didn't, and talked to my professors to make sure I had all the work I needed done for this Monday (the last day of classes before finals week) so I could go to the concert unhindered. And finally, I was going. I went to Berlin by FlixBus, which was a fourteen hour bus, but thankfully it was direct. The bus stopped in Maribor, Graz, Vienna, Prague, and Dresden, so at least the route was scenic. On the way there, I watched the first part of Stranger Things 5, which had just come out at the time. It was pretty good, I won't go into spoilers here or anything, since this isn't a Stranger Things review, but I definitely liked the first half of the season.
