@@ -23,6 +23,9 @@ export interface BlogPost {
 	/** The URL slug for the post. */
 	slug: string,
 
+	/** The URL to the image gallery for the post. */
+	gallery: string,
+
 	/** The content of the blog post, as markdown. */
 	content?: string
 }
@@ -34,8 +37,9 @@ function parsePost(contents: string, filename: string): BlogPost {
 		thumbnail: lines[1].trim(),
 		title: lines[2].trim(),
 		daterange: lines[3].trim(),
+		gallery: lines[4].trim(),
 		slug: filename.split('/').pop()!.replace('.md', ''),
-		content: lines.slice(4).join('\n').trim()
+		content: lines.slice(5).join('\n').trim()
 	}
 }
 

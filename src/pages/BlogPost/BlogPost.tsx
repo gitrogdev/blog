@@ -1,6 +1,7 @@
 import ReactMarkdown from "react-markdown";
 import { useParams } from "react-router-dom";
-import { Typography } from "@mui/material";
+import { Button, Typography } from "@mui/material";
+import { CameraAlt } from "@mui/icons-material";
 
 import { blogPosts } from "../../blog/blogPosts";
 import './BlogPost.css';
@@ -14,5 +15,14 @@ export default function BlogPost() {
 		<Typography variant="h3">{post.title}</Typography>
 		<Typography variant="h5">{post.daterange}</Typography>
 		<ReactMarkdown>{post.content}</ReactMarkdown>
+		<Button
+			variant="contained"
+			endIcon={<CameraAlt />}
+			component="a"
+			href={post.gallery}
+			target="_blank"
+		>
+			View Gallery
+		</Button>
 	</article>)
 }
