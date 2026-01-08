@@ -1,6 +1,7 @@
 const postFiles: Record<string, string> = import.meta.glob('./posts/*.md', {
 	eager: true,
-	query: '?raw'
+	query: '?raw',
+	import: 'default'
 });
 
 /**
