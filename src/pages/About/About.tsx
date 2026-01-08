@@ -1,12 +1,28 @@
 import { Box, Typography } from "@mui/material";
+import { useEffect } from "react";
+
 import './About.css';
 import yearsSince from "../../util/yearsSince";
 import Links from "../../components/Links/Links";
 
-export default function About() {
+interface AboutProps {
+	title: string
+}
+
+/**
+ * Renders and returns the home/about section of the site.
+ * 
+ * @param {PostGalleryProps} props the component's properties
+ * @param {stirng} props.title the title of the site
+ *
+ * @returns the rendered about section of the site
+ */
+export default function About(props: AboutProps) {
 	const age = yearsSince('2002-08-08');
 	const timeEU = yearsSince('2021-09-14');
 	const timeHR = yearsSince('2022-09-12');
+
+	useEffect(() => {document.title = props.title}, [props.title]);
 
 	return (<Box className="about-box">
 		<Typography variant="h3" gutterBottom>
