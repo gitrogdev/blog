@@ -2,7 +2,7 @@
 https://photos.smugmug.com/2025/Warsaw---New-Year-s-2025/i-TK6ssBf/0/NLHQBRtGnPPV7swb5zBSPmjKgV6dtbH8jKPhGjfdn/X2/IMG_5598-X2.jpg
 New Year's in Warsaw
 December 29th, 2024 - January 2nd, 2025
-https://gitrogdev.smugmug.com/2025/n-LNc4HF/Warsaw---New-Year-s-2025
+https://gitrogdev.smugmug.com/2025/Warsaw---New-Year-s-2025/n-2B8xjq
 
 Warsaw, New Year's, 2025. My original plan was to go to Milan for New Year's, fly to Warsaw after, and then take a bus from there into Ukraine on the second. I still ended up taking the bus into Ukraine, but plans fell through in Milan, so I decided to go to Warsaw early and spend a few days there. One of my buddies from uni asked me if I had any plans for the new year, and I told him about this, and he asked if he could join me. I said sure, as long as he paid his share. So we went to Warsaw together.
 
