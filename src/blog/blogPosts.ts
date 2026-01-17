@@ -11,6 +11,9 @@ export interface BlogPost {
 	/** The date the post was made on, in YYYY-MM-DD format. */
 	date: string,
 
+	/** The location of the post. */
+	location: string,
+
 	/** The image URL to the thumbnail of the post. */
 	thumbnail: string,
 
@@ -34,12 +37,13 @@ function parsePost(contents: string, filename: string): BlogPost {
 	const lines = contents.split('\n');
 	return {
 		date: lines[0].trim(),
-		thumbnail: lines[1].trim(),
-		title: lines[2].trim(),
-		daterange: lines[3].trim(),
-		gallery: lines[4].trim(),
+		location: lines[1].trim(),
+		thumbnail: lines[2].trim(),
+		title: lines[3].trim(),
+		daterange: lines[4].trim(),
+		gallery: lines[5].trim(),
 		slug: filename.split('/').pop()!.replace('.md', ''),
-		content: lines.slice(5).join('\n').trim()
+		content: lines.slice(6).join('\n').trim()
 	}
 }
 

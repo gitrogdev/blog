@@ -1,11 +1,12 @@
+import { useEffect } from "react";
 import ReactMarkdown from "react-markdown";
 import { useParams } from "react-router-dom";
 import { Button, Typography } from "@mui/material";
 import { CameraAlt } from "@mui/icons-material";
 
 import { blogPosts } from "../../blog/blogPosts";
+import updateMeta from "../../util/updateMeta";
 import './BlogPost.css';
-import { useEffect } from "react";
 
 interface BlogPostProps {
 	title: string
@@ -16,7 +17,7 @@ interface BlogPostProps {
  * a markdown file specified in the slug.
  * 
  * @param {PostGalleryProps} props the component's properties
- * @param {stirng} props.title the title of the site
+ * @param {string} props.title the title of the site
  *
  * @returns the rendered blog post
  */
@@ -29,6 +30,8 @@ export default function BlogPost(props: BlogPostProps) {
 	useEffect(() => {
 		document.title = `${props.title} - ${post.title}`;
 	}, [post.title]);
+
+	updateMeta('description', `gitrog in ${post.location.toLocaleLowerCase()}`);
 
 	return (<article>
 		<Typography variant="h3">{post.title}</Typography>

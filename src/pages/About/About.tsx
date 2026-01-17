@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import './About.css';
 import yearsSince from "../../util/yearsSince";
 import Links from "../../components/Links/Links";
+import updateMeta from "../../util/updateMeta";
 
 interface AboutProps {
 	title: string
@@ -23,6 +24,8 @@ export default function About(props: AboutProps) {
 	const timeHR = yearsSince('2022-09-12');
 
 	useEffect(() => {document.title = props.title}, [props.title]);
+
+	updateMeta('description', 'gitrog\'s home page');
 
 	return (<Box className="about-box">
 		<Typography variant="h3" gutterBottom>
