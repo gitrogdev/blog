@@ -5,6 +5,7 @@ import './About.css';
 import yearsSince from "../../util/yearsSince";
 import Links from "../../components/Links/Links";
 import updateMeta from "../../util/updateMeta";
+import FeaturedSongCard from "../../components/FeaturedSongCard/FeaturedSongCard";
 
 interface AboutProps {
 	title: string
@@ -69,6 +70,24 @@ export default function About(props: AboutProps) {
 			}}
 		>
 			<Links/>
+		</Box>
+		<br/>
+		<Box
+			sx={{
+				display: 'inline-flex',
+				alignItems: 'center',
+				border: '1px solid',
+				borderColor: 'divider',
+				marginTop: '10px',
+				borderRadius: 2,
+				bgcolor: 'background.paper',
+				color: 'text.secondary',
+				'& svg': {
+					m: 1,
+				}
+			}}
+		>
+			<FeaturedSongCard/>
 		</Box>
 	</Box>);
 }
