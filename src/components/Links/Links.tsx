@@ -3,7 +3,6 @@ import {
 	GitHub,
 	Movie,
 	MusicNote,
-	SportsBar,
 	YouTube
 } from '@mui/icons-material';
 
@@ -11,7 +10,6 @@ import {
 	github,
 	letterboxd,
 	spotify,
-	untappd,
 	youtube
 } from '../../data/socials.json';
 
@@ -56,16 +54,6 @@ export default function Links() {
 			aria-label="letterboxd"
 		>
 			<Movie />
-		</IconButton>
-		<IconButton
-			component="a"
-			href={untappd}
-			target="_blank"
-			size="large"
-			color="inherit"
-			aria-label="untappd"
-		>
-			<SportsBar />
 		</IconButton>
 	</>);
 }
