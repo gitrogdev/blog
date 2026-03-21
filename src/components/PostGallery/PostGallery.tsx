@@ -44,7 +44,6 @@ export default function PostGallery(props: PostGalleryProps) {
 		<Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
 			<TabList onChange={handleTab}>
 				<Tab label="Travel" value="1" />
-				<Tab label="Music" value="2" />
 			</TabList>
 		</Box>
 		<TabPanel value="1">
@@ -83,9 +82,6 @@ export default function PostGallery(props: PostGalleryProps) {
 					</ImageListItem>
 				</Link>))}
 			</ImageList>
-		</TabPanel>
-		<TabPanel value="2">
-			music
 		</TabPanel>
 	</TabContext>);
 }
