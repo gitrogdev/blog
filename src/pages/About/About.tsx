@@ -47,11 +47,12 @@ export default function About(props: AboutProps) {
 		</Typography>
 		<Typography>
 			I enjoy traveling, listening to music (lately that's primarily been
-			Radiohead and their related projects, Pixies, and Croatian and
-			ex-Yugoslav rock), programming, watching films and series, gaming,
-			and having an interesting beer every now and then. If you're
-			interested in connecting over any of those, I've linked various
-			socials for those below.
+			Radiohead and their related projects, Pixies, Pink Floyd, Elliott
+			Smith, and Dire Straits), collecting vinyl records, programming,
+			watching films and series, gaming, and hosting board and Jackbox
+			nights with classmates at my place. If you're interested in
+			connecting over any of those, I've linked various socials for those
+			below.
 		</Typography>
 		<Box
 			sx={{
