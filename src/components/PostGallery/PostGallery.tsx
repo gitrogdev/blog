@@ -48,7 +48,7 @@ export default function PostGallery(props: PostGalleryProps) {
 			</TabList>
 		</Box>
 		<TabPanel value="1">
-			<ImageList>
+			<ImageList variant="woven">
 				{props.blogPosts.map((post) => (<Link to={`blog/${post.slug}`}>
 					<ImageListItem
 						key={post.thumbnail}
