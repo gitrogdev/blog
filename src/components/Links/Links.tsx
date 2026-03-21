@@ -1,5 +1,6 @@
 import { IconButton } from '@mui/material';
 import {
+	Album,
 	GitHub,
 	Movie,
 	MusicNote,
@@ -7,6 +8,7 @@ import {
 } from '@mui/icons-material';
 
 import {
+	discogs,
 	github,
 	letterboxd,
 	spotify,
@@ -54,6 +56,16 @@ export default function Links() {
 			aria-label="letterboxd"
 		>
 			<Movie />
+		</IconButton>
+		<IconButton
+			component="a"
+			href={discogs}
+			target="_blank"
+			size="large"
+			color="inherit"
+			aria-label="discogs"
+		>
+			<Album />
 		</IconButton>
 	</>);
 }
